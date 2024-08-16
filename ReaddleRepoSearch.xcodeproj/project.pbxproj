@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		21BE30182C6F5C73003F79D8 /* ReaddleRepoSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30172C6F5C73003F79D8 /* ReaddleRepoSearchApp.swift */; };
-		21BE301A2C6F5C73003F79D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30192C6F5C73003F79D8 /* ContentView.swift */; };
 		21BE301C2C6F5C74003F79D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BE301B2C6F5C74003F79D8 /* Assets.xcassets */; };
 		21BE301F2C6F5C74003F79D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BE301E2C6F5C74003F79D8 /* Preview Assets.xcassets */; };
+		21BE30272C6F5D17003F79D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30262C6F5D17003F79D8 /* NetworkManager.swift */; };
+		21BE30292C6F5D75003F79D8 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30282C6F5D75003F79D8 /* Request.swift */; };
+		21BE302C2C6F5E67003F79D8 /* SecuredStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE302B2C6F5E67003F79D8 /* SecuredStorage.swift */; };
+		21BE302F2C6F5FF6003F79D8 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE302E2C6F5FF6003F79D8 /* Repository.swift */; };
+		21BE30312C6F6052003F79D8 /* RepositoryOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30302C6F6052003F79D8 /* RepositoryOwner.swift */; };
+		21BE30332C6F610E003F79D8 /* SearchRepositoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30322C6F610E003F79D8 /* SearchRepositoriesResponse.swift */; };
+		21BE30372C6F61CC003F79D8 /* RepositoriesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30362C6F61CC003F79D8 /* RepositoriesListScreen.swift */; };
+		21BE303D2C6F62FE003F79D8 /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE303C2C6F62FE003F79D8 /* RepositoryService.swift */; };
+		21BE303F2C6F6357003F79D8 /* RepositoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE303E2C6F6357003F79D8 /* RepositoriesListViewModel.swift */; };
+		21BE30412C6F661E003F79D8 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30402C6F661E003F79D8 /* CancelBag.swift */; };
+		21BE30432C6F6CD8003F79D8 /* RepositoryDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE30422C6F6CD8003F79D8 /* RepositoryDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21BE30142C6F5C73003F79D8 /* ReaddleRepoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaddleRepoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BE30172C6F5C73003F79D8 /* ReaddleRepoSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaddleRepoSearchApp.swift; sourceTree = "<group>"; };
-		21BE30192C6F5C73003F79D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21BE301B2C6F5C74003F79D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BE301E2C6F5C74003F79D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21BE30262C6F5D17003F79D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		21BE30282C6F5D75003F79D8 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		21BE302B2C6F5E67003F79D8 /* SecuredStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuredStorage.swift; sourceTree = "<group>"; };
+		21BE302E2C6F5FF6003F79D8 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		21BE30302C6F6052003F79D8 /* RepositoryOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryOwner.swift; sourceTree = "<group>"; };
+		21BE30322C6F610E003F79D8 /* SearchRepositoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesResponse.swift; sourceTree = "<group>"; };
+		21BE30362C6F61CC003F79D8 /* RepositoriesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListScreen.swift; sourceTree = "<group>"; };
+		21BE303C2C6F62FE003F79D8 /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
+		21BE303E2C6F6357003F79D8 /* RepositoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewModel.swift; sourceTree = "<group>"; };
+		21BE30402C6F661E003F79D8 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		21BE30422C6F6CD8003F79D8 /* RepositoryDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,12 @@
 		21BE30162C6F5C73003F79D8 /* ReaddleRepoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				21BE303B2C6F62F4003F79D8 /* Services */,
+				21BE302D2C6F5FEF003F79D8 /* Entities */,
+				21BE302A2C6F5E61003F79D8 /* Utilities */,
+				21BE30252C6F5D0F003F79D8 /* Infrastructure */,
 				21BE30172C6F5C73003F79D8 /* ReaddleRepoSearchApp.swift */,
-				21BE30192C6F5C73003F79D8 /* ContentView.swift */,
+				21BE30382C6F61D2003F79D8 /* Features */,
 				21BE301B2C6F5C74003F79D8 /* Assets.xcassets */,
 				21BE301D2C6F5C74003F79D8 /* Preview Content */,
 			);
@@ -65,6 +89,68 @@
 				21BE301E2C6F5C74003F79D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21BE30252C6F5D0F003F79D8 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				21BE30262C6F5D17003F79D8 /* NetworkManager.swift */,
+				21BE30282C6F5D75003F79D8 /* Request.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		21BE302A2C6F5E61003F79D8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				21BE302B2C6F5E67003F79D8 /* SecuredStorage.swift */,
+				21BE30402C6F661E003F79D8 /* CancelBag.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		21BE302D2C6F5FEF003F79D8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				21BE302E2C6F5FF6003F79D8 /* Repository.swift */,
+				21BE30302C6F6052003F79D8 /* RepositoryOwner.swift */,
+				21BE30322C6F610E003F79D8 /* SearchRepositoriesResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		21BE30382C6F61D2003F79D8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				21BE303A2C6F61DC003F79D8 /* RepositoryDetail */,
+				21BE30392C6F61D7003F79D8 /* RepositoriesList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		21BE30392C6F61D7003F79D8 /* RepositoriesList */ = {
+			isa = PBXGroup;
+			children = (
+				21BE30362C6F61CC003F79D8 /* RepositoriesListScreen.swift */,
+				21BE303E2C6F6357003F79D8 /* RepositoriesListViewModel.swift */,
+			);
+			path = RepositoriesList;
+			sourceTree = "<group>";
+		};
+		21BE303A2C6F61DC003F79D8 /* RepositoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				21BE30422C6F6CD8003F79D8 /* RepositoryDetailsScreen.swift */,
+			);
+			path = RepositoryDetail;
+			sourceTree = "<group>";
+		};
+		21BE303B2C6F62F4003F79D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				21BE303C2C6F62FE003F79D8 /* RepositoryService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BE301A2C6F5C73003F79D8 /* ContentView.swift in Sources */,
+				21BE30332C6F610E003F79D8 /* SearchRepositoriesResponse.swift in Sources */,
+				21BE303D2C6F62FE003F79D8 /* RepositoryService.swift in Sources */,
+				21BE30272C6F5D17003F79D8 /* NetworkManager.swift in Sources */,
+				21BE30292C6F5D75003F79D8 /* Request.swift in Sources */,
+				21BE303F2C6F6357003F79D8 /* RepositoriesListViewModel.swift in Sources */,
+				21BE30312C6F6052003F79D8 /* RepositoryOwner.swift in Sources */,
+				21BE30372C6F61CC003F79D8 /* RepositoriesListScreen.swift in Sources */,
 				21BE30182C6F5C73003F79D8 /* ReaddleRepoSearchApp.swift in Sources */,
+				21BE30412C6F661E003F79D8 /* CancelBag.swift in Sources */,
+				21BE302C2C6F5E67003F79D8 /* SecuredStorage.swift in Sources */,
+				21BE30432C6F6CD8003F79D8 /* RepositoryDetailsScreen.swift in Sources */,
+				21BE302F2C6F5FF6003F79D8 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +376,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +406,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
